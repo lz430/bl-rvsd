@@ -1,0 +1,358 @@
+<!--//<br />-->
+<script type="text/javascript">
+	var windowsizeOrg = 0;
+	//var timer;
+
+	$(window).bind("load resize", function() {
+		var windowsize = $(window).width();
+		var prod_divs = $(".homepage_featured_product");
+		var cat_divs = $(".homepage_featured_category");
+
+		//clearTimeout(timer);
+		//timer = setTimeout(function(){
+
+		if(windowsizeOrg === 0 || windowsizeOrg > 767 && windowsize < 768 || windowsizeOrg < 768 && windowsize > 767){
+			$('.homepage_featured_row').children().unwrap();
+
+			if (windowsize > 767) {
+				for(var i = 0; i < prod_divs.length; i+=5) {
+					prod_divs.slice(i, i+5).wrapAll('<div class="homepage_featured_row"></div>');
+					cat_divs.slice(i, i+5).wrapAll('<div class="homepage_featured_row"></div>');
+				}
+			} else if (windowsize < 768) {
+				for(var i = 0; i < prod_divs.length; i+=2) {
+					prod_divs.slice(i, i+2).wrapAll('<div class="homepage_featured_row"></div>');
+					cat_divs.slice(i, i+2).wrapAll('<div class="homepage_featured_row"></div>');
+				}
+			}
+
+		}
+
+		//alert('Window Size Original: '+windowsizeOrg+' Window Size: '+windowsize);
+
+		windowsizeOrg = windowsize;
+		//}, 1000);
+	});
+</script>
+<div id="hero-desktop" class="bl_hero">
+	<div class="slide" style="background-color:#3c4d96; background-image:url('/v/responsive_slider/banners/1-hero-thankyou-desktop.jpg');">
+		<a href="#" title="Thank You For Choosing HeartSmart.com - The Nationwide Leader for AEDs, AED Supplies, Training &amp; Support"><span>Thank You For Choosing HeartSmart.com - The Nationwide Leader for AEDs, AED Supplies, Training &amp; Support</span></a>
+	</div>
+	<div class="slide" style="background-color:#3c4d96; background-image:url('/v/responsive_slider/banners/2-hero-bundle-desktop.jpg');">
+		<a href="/aed-value-packages-s/1837.htm" title="Bundle &amp; Save - Complete AED Value Packages Starting at $1,175"><span>Bundle &amp; Save - Complete AED Value Packages Starting at $1,175</span></a>
+	</div>
+	<div class="slide" style="background-color:#3c4d96; background-image:url('/v/responsive_slider/banners/3-hero-heartsmartpro-desktop.jpg');">
+		<a href="/aed-management-a/268.htm" title="HeartSmartPro.com - AED Tracking &amp; Support...for Life"><span>HeartSmartPro.com - AED Tracking &amp; Support...for Life</span></a>
+	</div>
+	<div class="slide" style="background-color:#3c4d96; background-image:url('/v/responsive_slider/banners/4-hero-training-desktop.jpg');">
+		<a href="/CPR-AED-Training-Certification-s/1835.htm" title="CPR/AED Training - First Aid / Training &amp; Certification available at your location!"><span>CPR/AED Training - First Aid / Training &amp; Certification available at your location!</span></a>
+	</div>
+	<div class="slide" style="background-color:#3c4d96; background-image:url('/v/responsive_slider/banners/5-hero-purchaseincludes-desktop.jpg');">
+		<a href="#" title="Every Online AED Purchase Includes: Medical Prescription/Authorization, AED Inspection Tag, AED Facility Decal, HeartSmart AED Response Kit, UPS Ground Shipping, and Lifetime Tracking &amp; Notification"><span>Every Online AED Purchase Includes: Medical Prescription/Authorization, AED Inspection Tag, AED Facility Decal, HeartSmart AED Response Kit, UPS Ground Shipping, and Lifetime Tracking &amp; Notification</span></a>
+	</div>
+</div>
+<div id="hero-mobile" class="bl_hero">
+	<a href="#" title="Thank You For Choosing HeartSmart.com - The Nationwide Leader for AEDs, AED Supplies, Training &amp; Support" class="slide"><img src="/v/responsive_slider/banners/1-hero-thankyou-mobile.jpg" alt="Thank You For Choosing HeartSmart.com - The Nationwide Leader for AEDs, AED Supplies, Training &amp; Support" title="Thank You For Choosing HeartSmart.com - The Nationwide Leader for AEDs, AED Supplies, Training &amp; Support" /></a>
+	<a href="/aed-value-packages-s/1837.htm"  title="Bundle &amp; Save - Complete AED Value Packages Starting at $1,175" class="slide"><img src="/v/responsive_slider/banners/2-hero-bundle-mobile.jpg" alt="Bundle &amp; Save - Complete AED Value Packages Starting at $1,175" title="Bundle &amp; Save - Complete AED Value Packages Starting at $1,175" /></a>
+	<a href="/aed-management-a/268.htm" title="HeartSmartPro.com - AED Tracking &amp; Support...for Life" class="slide"><img src="/v/responsive_slider/banners/3-hero-heartsmartpro-mobile.jpg" alt="HeartSmartPro.com - AED Tracking &amp; Support...for Life" title="HeartSmartPro.com - AED Tracking &amp; Support...for Life" /></a>
+	<a href="/CPR-AED-Training-Certification-s/1835.htm" title="CPR/AED Training - First Aid / Training &amp; Certification available at your location!" class="slide"><img src="/v/responsive_slider/banners/4-hero-training-mobile.jpg" alt="CPR/AED Training - First Aid / Training &amp; Certification available at your location!" title="CPR/AED Training - First Aid / Training &amp; Certification available at your location!" /></a>
+	<a href="/aed-value-packages-s/1837.htm" title="Every Online AED Purchase Includes: Medical Prescription/Authorization, AED Inspection Tag, AED Facility Decal, HeartSmart AED Response Kit, UPS Ground Shipping, and Lifetime Tracking &amp; Notification" class="slide"><img src="/v/responsive_slider/banners/5-hero-purchaseincludes-mobile.jpg" alt="Every Online AED Purchase Includes: Medical Prescription/Authorization, AED Inspection Tag, AED Facility Decal, HeartSmart AED Response Kit, UPS Ground Shipping, and Lifetime Tracking &amp; Notification" title="Every Online AED Purchase Includes: Medical Prescription/Authorization, AED Inspection Tag, AED Facility Decal, HeartSmart AED Response Kit, UPS Ground Shipping, and Lifetime Tracking &amp; Notification" /></a>
+	<!--<a href="/aed_sales_and_coupons_a/254.htm" style="background-image: url(&quot;/v/responsive_slider/banners/1-hero-thankyou-mobile.jpg&quot;);" title="Thank You For Choosing HeartSmart.com - The Nationwide Leader for AEDs, AED Supplies, Training &amp; Support" class="slide"></a>
+	<a href="/aed-value-packages-s/1837.htm" style="background-image: url(&quot;/v/responsive_slider/banners/2-hero-bundle-mobile.jpg&quot;);" title="Bundle &amp; Save - Complete AED Value Packages Starting at $1,175" class="slide"></a>
+    <a href="/aed-management-a/268.htm" style="background-image: url(&quot;/v/responsive_slider/banners/3-hero-heartsmartpro-mobile.jpg&quot;);" title="HeartSmartPro.com - AED Tracking &amp; Suppor...for Life" class="slide"></a>
+    <a href="/CPR-AED-Training-Certification-s/1835.htm" style="background-image: url(&quot;/v/responsive_slider/banners/4-hero-training-mobile.jpg&quot;);" title="CPR/AED Training - First Aid / Training &amp; Certification available at your location!" class="slide"></a>
+    <a href="#" style="background-image: url(&quot;/v/responsive_slider/banners/5-hero-purchaseincludes-mobile.jpg&quot;);" title="Every Online AED Purchase Includes: Medical Prescription/Authorization, AED Inspection Tag, AED Facility Decal, HeartSmart AED Response Kit, UPS Ground Shipping, and Lifetime Tracking &amp; Notification" class="slide"></a>-->
+</div>
+<h1 id="homepage_heading">AED Defibrillator Sales, Training And Accessories From Industry Leading Manufacturers</h1>
+<div id="homepage_promos">
+	<div id="homepage_special_pricing_outter">
+		<div id="homepage_special_pricing_inner">
+			<h3>We Offer Special Pricing for</h3>
+			<ul id="homepage_special_pricing_col1">
+				<li>Schools</li>
+				<li>Churches</li>
+				<li>Military</li>
+				<li>Corporate</li>
+				<li class="special_pricing_group_mobile">Veterans</li>
+				<li class="special_pricing_group_mobile">Fire &amp; EMS</li>
+			</ul>
+			<ul id="homepage_special_pricing_col2">
+				<li>Veterans</li>
+				<li>Fire &amp; EMS</li>
+				<li>Senior Citizens</li>
+				<li>Children At Risk</li>
+			</ul>
+			<ul id="homepage_special_pricing_col3">
+				<li class="special_pricing_group_mobile">Senior Citizens</li>
+				<li class="special_pricing_group_mobile">Children At Risk</li>
+				<li>Medical Professionals</li>
+				<li>Law Enforcement</li>
+				<li>Government</li>
+				<li id="homepage_special_pricing_btn_cell"><a href="/request-quote-a/253.htm" title="Get A Quote" class="homepage_orange_arrow_btn">Get A Quote</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="homepage_replacement_pads_batteries_outter">
+		<div id="homepage_replacement_pads_batteries_inner">
+			<h3>Replacement Pads &amp; Batteries</h3>
+			<p>Keep your systems<br/>running strong</p>
+			<a href="/aed-pads-and-batteries-s/1818.htm" title="Shop Now" class="homepage_orange_arrow_btn">Shop Now</a>
+			<a href="/used-aed-s/1836.htm" id="homepage_replacement_pads_batteries_pre_owned" title="On A Budget? Pre-Owned AEDs Starting at $795"><strong>On A Budget?</strong>  Pre-Owned AEDs Starting at <span class="homepage_orange_arrow_btn">$795</span></a>
+		</div>
+	</div>
+	<div class="clearfloat"></div>
+</div>
+<a name="featured_products"></a>
+<div class="homepage_featured_title" id="homepage_featured_products_title">Featured Products</div>
+<div class="homepage_featured_wrapper" id="homepage_featured_products">
+	<div class="homepage_featured_table">
+		<div class="homepage_featured_row">
+			<a href="http://www.heartsmart.com/heartsine-samaritan-pad-aed-defibrillator-p/350-bac-us-10.htm" class="homepage_featured homepage_featured_product" title="HeartSine Samaritan AED 350P" id="homepage_featured_category_1">
+                <img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/prod-heartsine-samaritan-aed-350p.jpg" alt="HeartSine Samaritan AED 350P" title="HeartSine Samaritan AED 350P"/>
+                <h4>HeartSine Samaritan AED 350P</h4>
+                <span class="homepage_featured_product_price">$1,175.00</span>
+                <div class="v-product-btns"><span class="v-product-more-info">More Info</span><span class="v-product-add-to-cart">Add to Cart</span></div>
+			</a>
+            <a href="http://www.heartsmart.com/admin/philips-heartstart-onsite-aed-defibrillator-p/m5066a.htm" class="homepage_featured homepage_featured_product" title="Philips HeartStart OnSite AED - M5066A" id="homepage_featured_category_2">
+                <img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/prod-philips-heartstart-onsite-aed-m5066a.jpg" alt="Philips HeartStart OnSite AED - M5066A" title="Philips HeartStart OnSite AED - M5066A"/>
+                <h4>Philips HeartStart OnSite AED - M5066A</h4>
+                <span class="homepage_featured_product_price">$1,231.00</span>
+                <div class="v-product-btns"><span class="v-product-more-info">More Info</span><span class="v-product-add-to-cart">Add to Cart</span></div>
+			</a>
+            <a href="http://www.heartsmart.com/defibtech-lifeline-aed-defibrillator-p/dcf-100.htm" class="homepage_featured homepage_featured_product" title="Defibtech Lifeline AED Auto" id="homepage_featured_category_3">
+                <img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/prod-defibtech-lifeline-aed-auto.jpg" alt="Defibtech Lifeline AED Auto" title="Defibtech Lifeline AED Auto"/>
+                <h4>Defibtech Lifeline AED Auto</h4>
+                <span class="homepage_featured_product_price">$1,245.00</span>
+                <div class="v-product-btns"><span class="v-product-more-info">More Info</span><span class="v-product-add-to-cart">Add to Cart</span></div>
+			</a>
+            <a href="http://www.heartsmart.com/philips-heartstart-frx-aed-defibrillator-p/861304.htm" class="homepage_featured homepage_featured_product" title="Philips HeartStart FRx AED" id="homepage_featured_category_4">
+                <img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/prod-philips-heartstart-frx-aed.jpg" alt="Philips HeartStart FRx AED" title="Philips HeartStart FRx AED"/>
+                <h4>Philips HeartStart FRx AED</h4>
+                <span class="homepage_featured_product_price">$1,691.00</span>
+                <div class="v-product-btns"><span class="v-product-more-info">More Info</span><span class="v-product-add-to-cart">Add to Cart</span></div>
+			</a>
+            <a href="http://www.heartsmart.com/defibtech-lifeline-view-aed-defibrillator-p/dcf-a2310.htm" class="homepage_featured homepage_featured_product" title="Defibtech Lifeline View" id="homepage_featured_category_5">
+                <img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/prod-defibtech-lifeline-view.jpg" alt="Defibtech Lifeline View" title="Defibtech Lifeline View"/>
+                <h4>Defibtech Lifeline View</h4>
+                <span class="homepage_featured_product_price">$1,595.00</span>
+                <div class="v-product-btns"><span class="v-product-more-info">More Info</span><span class="v-product-add-to-cart">Add to Cart</span></div>
+			</a>
+		</div>
+		<div class="homepage_featured_row">
+			<a href="http://www.heartsmart.com/physio-control-lifepak-cr-plus-p/80403-000148.htm" class="homepage_featured homepage_featured_product" title="Physio-Control LIFEPAK CR Plus" id="homepage_featured_category_6">
+                <img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/prod-physio-control-lifepak-cr-plus.jpg" alt="Physio-Control LIFEPAK CR Plus" title="Physio-Control LIFEPAK CR Plus"/>
+                <h4>Physio-Control LIFEPAK CR Plus</h4>
+                <span class="homepage_featured_product_price">$1,695.00</span>
+                <div class="v-product-btns"><span class="v-product-more-info">More Info</span><span class="v-product-add-to-cart">Add to Cart</span></div>
+			</a>
+            <a href="http://www.heartsmart.com/cardiac-science-powerheart-g5-aed-p/g5a-80a-p.htm" class="homepage_featured homepage_featured_product" title="Cardiac Science Powerheart G5 AED" id="homepage_featured_category_7">
+                <img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/prod-cardiac-science-powerheart-g5-aed.jpg" alt="Cardiac Science Powerheart G5 AED" title="Cardiac Science Powerheart G5 AED"/>
+                <h4>Cardiac Science Powerheart G5 AED</h4>
+                <span class="homepage_featured_product_price">$1,695.00</span>
+                <div class="v-product-btns"><span class="v-product-more-info">More Info</span><span class="v-product-add-to-cart">Add to Cart</span></div>
+			</a>
+            <a href="http://www.heartsmart.com/heartsine-samaritan-pad-aed-defibrillator-p/450-bac-us-08.htm" class="homepage_featured homepage_featured_product" title="HeartSine Samaritan PAD 450P" id="homepage_featured_category_8">
+                <img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/prod-heartsine-samaritan-pad-450p.jpg" alt="HeartSine Samaritan PAD 450P" title="HeartSine Samaritan PAD 450P"/>
+                <h4>HeartSine Samaritan PAD 450P</h4>
+                <span class="homepage_featured_product_price">$1,695.00</span>
+                <div class="v-product-btns"><span class="v-product-more-info">More Info</span><span class="v-product-add-to-cart">Add to Cart</span></div>
+			</a>
+            <a href="http://www.heartsmart.com/product-p/22200010102011010-t.htm" class="homepage_featured homepage_featured_product" title="ZOLL AED Plus" id="homepage_featured_category_9">
+                <img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/prod-zoll-aed-plus.jpg" alt="ZOLL AED Plus" title="ZOLL AED Plus"/>
+                <h4>ZOLL AED Plus</h4>
+                <span class="homepage_featured_product_price">$1,699.00</span>
+                <div class="v-product-btns"><span class="v-product-more-info">More Info</span><span class="v-product-add-to-cart">Add to Cart</span></div>
+			</a>
+            <a href="http://www.heartsmart.com/product-p/99425-000023.htm" class="homepage_featured homepage_featured_product" title="Physio-Control LIFEPAK 1000" id="homepage_featured_category_10">
+                <img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/prod-physio-control-lifepak-1000.jpg" alt="Physio-Control LIFEPAK 1000" title="Physio-Control LIFEPAK 1000"/>
+                <h4>Physio-Control LIFEPAK 1000</h4>
+                <span class="homepage_featured_product_price">$2,395.00</span>
+                <div class="v-product-btns"><span class="v-product-more-info">More Info</span><span class="v-product-add-to-cart">Add to Cart</span></div>
+			</a>
+		</div>
+	</div>
+	<div class="clearfloat">
+	</div>
+</div>
+<!--//<br / />-->
+<div id="homepage_new_aeds_link">
+	<a href="/new-aeds-s/1817.htm" title="See All New AEDs" class="homepage_orange_arrow_btn">See All New AEDs</a>
+</div>
+<a href="/used-aed-s/1836.htm" id="homepage_onabudget_mobile"><strong>On A Budget?</strong>  Pre-Owned AEDs Starting at <span class="homepage_orange_arrow_btn">$795</span></a>
+<div class="homepage_featured_wrapper" id="homepage_featured_categories">
+	<div class="homepage_featured_title">
+		Featured Categories
+	</div>
+	<div class="homepage_featured_table">
+		<div class="homepage_featured_row">
+			<a href="/aed-value-packages-s/1837.htm" class="homepage_featured homepage_featured_category" title="Value Packages" id="homepage_featured_category_1">
+			<img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/cat-value-packages.jpg" alt="Value Packages" title="Value Packages"/>
+			<h4>Value Packages</h4>
+			<span class="homepage_featured_category_btn">Shop Now</span>
+			</a><a href="/aed-wall-cabinets-s/1820.htm" class="homepage_featured homepage_featured_category" title="AED Wall Cabinets" id="homepage_featured_category_2">
+			<img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/cat-aed-wall-cabinets.jpg" alt="AED Wall Cabinets" title="AED Wall Cabinets"/>
+			<h4>AED Wall Cabinets</h4>
+			<span class="homepage_featured_category_btn">Shop Now</span>
+			</a><a href="/category-s/1834.htm" class="homepage_featured homepage_featured_category" title="AED Trainers" id="homepage_featured_category_3">
+			<img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/cat-aed-trainers.jpg" alt="AED Trainers" title="AED Trainers"/>
+			<h4>AED Trainers</h4>
+			<span class="homepage_featured_category_btn">Shop Now</span>
+			</a><a href="/CPR-AED-Training-Certification-s/1835.htm" class="homepage_featured homepage_featured_category" title="CPR/AED Training" id="homepage_featured_category_4">
+			<img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/cat-cpr-aed-training.jpg" alt="CPR/AED Training" title="CPR/AED Training"/>
+			<h4>CPR/AED Training</h4>
+			<span class="homepage_featured_category_btn">Shop Now</span>
+			</a><a href="/aed-management-a/268.htm" class="homepage_featured homepage_featured_category" title="AED Management" id="homepage_featured_category_5">
+			<img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/cat-aed-management.jpg" alt="AED Management" title="AED Management"/>
+			<h4>AED Management</h4>
+			<span class="homepage_featured_category_btn">Shop Now</span>
+			</a>
+		</div>
+		<div class="homepage_featured_row">
+			<a href="/category-s/1921.htm" class="homepage_featured homepage_featured_category" title="First Aid Kits" id="homepage_featured_category_6">
+			<img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/cat-first-aid-kits.jpg" alt="First Aid Kits" title="First Aid Kits"/>
+			<h4>First Aid Kits</h4>
+			<span class="homepage_featured_category_btn">Shop Now</span>
+			</a><a href="/emergency-oxygen-s/1833.htm" class="homepage_featured homepage_featured_category" title="Emergency Oxygen" id="homepage_featured_category_7">
+			<img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/cat-emergency-oxygen.jpg" alt="Emergency Oxygen" title="Emergency Oxygen"/>
+			<h4>Emergency Oxygen</h4>
+			<span class="homepage_featured_category_btn">Shop Now</span>
+			</a><a href="/military-and-government-a/265.htm" class="homepage_featured homepage_featured_category" title="AED Discounts for Military & Govt." id="homepage_featured_category_8">
+			<img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/cat-aed-discounts-for-military-govt.jpg" alt="AED Discounts for Military & Govt." title="AED Discounts for Military & Govt."/>
+			<h4>AED Discounts for Military & Govt.</h4>
+			<span class="homepage_featured_category_btn">Shop Now</span>
+			</a><a href="/aeds-for-schools-s/1909.htm" class="homepage_featured homepage_featured_category" title="AED Discounts for Schools" id="homepage_featured_category_9">
+			<img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/cat-aed-discounts-for-schools.jpg" alt="AED Discounts for Schools" title="AED Discounts for Schools"/>
+			<h4>AED Discounts for Schools</h4>
+			<span class="homepage_featured_category_btn">Shop Now</span>
+			</a><a href="/aeds-for-church-s/1889.htm" class="homepage_featured homepage_featured_category" title="AED Discounts for Churches" id="homepage_featured_category_10">
+			<img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/cat-aed-discounts-for-churches.jpg" alt="AED Discounts for Churches" title="AED Discounts for Churches"/>
+			<h4>AED Discounts for Churches</h4>
+			<span class="homepage_featured_category_btn">Shop Now</span>
+			</a>
+		</div>
+	</div>
+	<div class="clearfloat">
+	</div>
+</div>
+<div id="homepage_testimonials_wrapper">
+	<div id="homepage_testimonials" style="width: 815%; position: relative; transition-duration: 0s; transform: translate3d(-1020px, 0px, 0px);">
+				<div class="homepage_testimonial slide bx-clone" style="float: left; list-style: none; position: relative; width: 1090px;">
+					<p>
+                "I contacted our sales rep at Heartsmart and she was very helpful. I talked with her telling her what our Church was thinking about buying. She listened and then she asked me a few questions and then she said she would email me a quote. She sent the quote and I took it before the board and we decided to change the quote so I sent her an email and asked her to do what the board wanted. She sent me a new quote and we placed an order for the AED. She said it may be a couple weeks before it was available and she sent me an email telling me that it was being sent to me and I received the unit and I am very pleased with the service I got from my sales rep and Heartsmart. I would recommend anybody/Church/Company to contact Heartsmart for their needs on an AED. They care and will do what they say they will do."  – 
+						<i>ResellerRatings.com</i>
+					</p>
+				</div>
+				<div class="homepage_testimonial slide" style="float: left; list-style: none; position: relative; width: 1090px;">
+					<p>
+				"I have never been so happy with customer service,,,, EVER. I understand the device being sensitive and shipping should be quick. If your shipping was any quicker I would suggest your customers order it when the had an emergency! I look forward to working with you in the future and will definitely spread the word throughout our 14 team organization if your quality service and knowledge. If you give me permission I will forward the quotes you gave me to our other presidents as I believe we are the first to have purchased an AED.  Thanks again!"  – 
+						<i>HeartSmart.com Customer </i>
+					</p>
+				</div>
+				<div class="homepage_testimonial slide" style="float: left; list-style: none; position: relative; width: 1090px;">
+					<p>
+                "Needed our item ASAP, customer service was FAB, even called to verify order & address so we would get our item on time. Instructor we hired to teach us how to use item RAVED about our choice. All is good, hope we don't ever have to use the item we purchased. Will highly recommend company!"  – 
+						<i>ResellerRatings.com</i>
+					</p>
+				</div>
+				<div class="homepage_testimonial slide" style="float: left; list-style: none; position: relative; width: 1090px;">
+					<p>
+                "I was very satisfied with the service - being able to live chat with a rep was awesome - found out the product I was needing was in stock before ordering. I've been working with a local business for more than a month and couldn't get the pads for my AED machine and had these within 5 days! Thank you."  – 
+						<i>ResellerRatings.com</i>
+					</p>
+				</div>
+				<div class="homepage_testimonial slide" style="float: left; list-style: none; position: relative; width: 1090px;">
+					<p>
+                "Extremely satisfied with customer service from start to finish. My call to inquire on pricing was quickly followed up with a quote - and our church received special non-profit pricing! Very courteous service representative."  – 
+						<i>ResellerRatings.com</i>
+					</p>
+				</div>
+				<div class="homepage_testimonial slide" style="float: left; list-style: none; position: relative; width: 1090px;">
+					<p>
+                "The website was easy to navigate and had all the information I required to find and purchase the parts I needed without any wasted effort or blind alleyways. It was a good experience with a reputable company."  – 
+						<i>ResellerRatings.com</i>
+					</p>
+				</div>
+				<div class="homepage_testimonial slide" style="float: left; list-style: none; position: relative; width: 1090px;">
+					<p>
+                "I contacted our sales rep at Heartsmart and she was very helpful. I talked with her telling her what our Church was thinking about buying. She listened and then she asked me a few questions and then she said she would email me a quote. She sent the quote and I took it before the board and we decided to change the quote so I sent her an email and asked her to do what the board wanted. She sent me a new quote and we placed an order for the AED. She said it may be a couple weeks before it was available and she sent me an email telling me that it was being sent to me and I received the unit and I am very pleased with the service I got from my sales rep and Heartsmart. I would recommend anybody/Church/Company to contact Heartsmart for their needs on an AED. They care and will do what they say they will do."  – 
+						<i>ResellerRatings.com</i>
+					</p>
+				</div>
+				<div class="homepage_testimonial slide bx-clone" style="float: left; list-style: none; position: relative; width: 1090px;">
+					<p>
+				"I have never been so happy with customer service,,,, EVER. I understand the device being sensitive and shipping should be quick. If your shipping was any quicker I would suggest your customers order it when the had an emergency! I look forward to working with you in the future and will definitely spread the word throughout our 14 team organization if your quality service and knowledge. If you give me permission I will forward the quotes you gave me to our other presidents as I believe we are the first to have purchased an AED.  Thanks again!"  – 
+						<i>HeartSmart.com Customer </i>
+					</p>
+				</div>
+			</div>
+	<div class="homepage_testimonials_btn">
+		<a href="/testimonials-a/291.htm" title="Read All Testimonials" class="homepage_orange_arrow_btn">Read All Testimonials</a>
+	</div>
+</div>
+<div id="homepage_heartsmartpro_outter">
+	<div id="homepage_heartsmartpro_inner">
+		<div id="homepage_heartsmartpro_logo">
+			<img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/heartsmartpro-logo.png" alt="HeartSmartPro.com - AED Tracking & Support...for Life" title="HeartSmartPro.com - AED Tracking & Support...for Life"/>
+		</div>
+		<div id="homepage_heartsmartpro_pricing">
+			<strong>Free</strong> to all HeartSmart Customers!
+		</div>
+		<div id="homepage_heartsmartpro_desc">
+			Use our easy online tool to maintain and manage
+			<br/>your AED so it’s always ready when you need it. Take the<br/>guesswork out of managing your AED!
+		</div>
+		<div id="homepage_heartsmartpro_btn">
+			<a href="/aed-management-a/268.htm" title="Learn More" class="homepage_orange_arrow_btn">Learn More</a>
+		</div>
+		<div id="homepage_heartsmartpro_preview">
+			<img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/heartsmartpro-preview.png" alt="HeartSmartPro.com - AED Tracking & Support...for Life" title="HeartSmartPro.com - AED Tracking & Support...for Life"/>
+		</div>
+	</div>
+</div>
+<div id="homepage_about_team_outter" class="container-fluid">
+	<div id="homepage_about_team_inner" class="row">
+		<div id="homepage_about">
+			<h4>AED Devices, Supplies, Services, Training and Support</h4>
+			<p>
+				HeartSmart.com is proud to be a leading provider of Automated External Defibrillators, also referred to as AEDs. We offer AED devices by industry leading AED manufacturers as well as the supplies, services, training and support needed to ensure your AED and AED program is thought-out, maintained, and your responders are trained and ready.
+			</p>
+			<p>
+				We base our company's reputation on providing the best AEDs at the best prices in the industry. Along with the best AEDs, we offer and provide essential services, support and training that make HeartSmart.com your one-stop shop for purchasing an AED or maintaining an AED.
+			</p>
+			<p>
+				Please let us know if you have any questions or concerns and Thank you for choosing HeartSmart.com. 
+				<span class="home-thanks-sig"> </span>
+			</p>
+		</div>
+		<div id="homepage_team_logos_mobile">
+			<img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/about-team-aha.jpg" alt="American Heart Association (AHA)" title="American Heart Association (AHA)" id="homepage_team_logo_aha"/>
+			<img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/about-team-certified-instructors.jpg" alt="EMS Safety Certified Instructors" title="EMS Safety Certified Instructors" id="homepage_team_logo_certified_instructors"/>
+			<img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/about-team-arc.jpg" alt="American Red Cross (ARC)" title="American Red Cross (ARC)" id="homepage_team_logo_arc"/>
+		</div>
+		<div id="homepage_team">
+			<h4>Our Team</h4>
+			<p>
+				HeartSmart.com is proud to have on staff, qualified CPR/AED instructors certified by American Heart Association (AHA) as well as American Red Cross (ARC). In addition, we have teamed up with instructors across the nation to provide complete AED solutions including consultation, AED equipment selection, onsite CPR/ AED training and certification as well as post sale support and services.
+			</p>
+			<p>
+				Excellence in customer support and service is our is highest priority.
+			</p>
+		</div>
+		<div id="homepage_team_logos" class="col-xs-12 col-sm-2">
+			<img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/about-team-aha.jpg" alt="American Heart Association (AHA)" title="American Heart Association (AHA)" id="homepage_team_logo_aha"/>
+			<img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/about-team-certified-instructors.jpg" alt="EMS Safety Certified Instructors" title="EMS Safety Certified Instructors" id="homepage_team_logo_certified_instructors"/>
+			<img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/about-team-arc.jpg" alt="American Red Cross (ARC)" title="American Red Cross (ARC)" id="homepage_team_logo_arc"/>
+		</div>
+		<div class="clearfloat">
+		</div>
+	</div>
+</div>
+<div id="homepage_brands">
+	<h4>Our Brands</h4>
+	<a href="/philips-heartstart-aeds-s/1862.htm" title="Philips" id="homepage_brand_philips"><img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/brand-philips.jpg" alt="Philips" title="Philips"/></a>
+	<a href="/category-s/1946.htm" title="Physio Control" id="homepage_brand_physio_control"><img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/brand-physio-control.jpg" alt="Physio Control" title="Physio Control"/></a>
+	<a href="/category-s/1917.htm" title="Cardiac Science" id="homepage_brand_cardiac_science"><img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/brand-cardiac-science.jpg" alt="Cardiac Science" title="Cardiac Science"/></a>
+	<a href="/zoll-aeds-s/1890.htm" title="Zoll" id="homepage_brand_zoll"><img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/brand-zoll.jpg" alt="Zoll" title="Zoll"/></a>
+	<a href="/Defibtech-AEDs-s/1832.htm" title="DefibTech" id="homepage_brand_defibtech"><img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/brand-defibtech.jpg" alt="DefibTech" title="DefibTech"/></a>
+	<a href="/heartsine-samaritan-s/1861.htm" title="HeartSine" id="homepage_brand_heartsine"><img src="/v/vspfiles/templates/HeartSmart2015/images/homepage/brand-heartsine.jpg" alt="HeartSine" title="HeartSine"/></a>
+</div>
