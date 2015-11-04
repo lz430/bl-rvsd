@@ -324,7 +324,7 @@
 //** Number of columns in the grid.
 @grid-columns:              12;
 //** Padding between columns. Gets divided in half for the left and right.
-@grid-gutter-width:         15px;
+@grid-gutter-width:         0;
 // Navbar collapse
 //** Point at which the navbar becomes uncollapsed.
 @grid-float-breakpoint:     @screen-sm-min;
@@ -347,13 +347,16 @@
 //
 //## Define the maximum width of `.container` for different screen sizes.
 
-// Small screen / tablet
-@container-tablet:             (99% + @grid-gutter-width);
+// Small screen / tablet 
+// Equates to: min-width: 992px
+@container-tablet:             (90% + @grid-gutter-width);
+
 //** For `@screen-sm-min` and up.
-@container-sm:                 @container-tablet;
+// Equates to: min-width: 768px
+@container-sm:                 (100% + @grid-gutter-width);
 
 // Medium screen / desktop
-@container-desktop:            (95% + @grid-gutter-width);
+@container-desktop:            (90% + @grid-gutter-width);
 //** For `@screen-md-min` and up.
 @container-md:                 @container-desktop;
 

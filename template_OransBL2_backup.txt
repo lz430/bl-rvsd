@@ -1,0 +1,252 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<!-- 
+	DYNAMIC PAGE-SPECIFIC META TAGS WILL BE PLACED HERE
+	DO NOT ADD YOUR OWN META TAGS
+	ONLY PUT CSS/JAVSCRIPT INCLUDES IN YOUR HEAD TAG
+	-->
+	<!--[if IE]>	
+		<link type="image/vnd.microsoft.icon" href="/favicon.ico" rel="icon" />
+	<![endif]-->
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <meta name="msvalidate.01" content="477C981BB1B5986A4155986A00CE461F" />
+	<link type="image/x-icon" href="/favicon.ico" rel="icon" />
+	<link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />
+  
+  
+	<link type="text/css" href="/v/unified.css.asp" rel="stylesheet" />
+  
+	<div id="if_homepage">
+		<!-- Home Page Special Style -->
+		<link type="text/css" href="vspfiles/templates/OransBL2/css/Home_Page.css" rel="stylesheet" />
+	</div>
+	<div id="if_not_homepage">
+		<!-- Non Home Page Special Style -->
+		<link type="text/css" href="vspfiles/templates/OransBL2/css/Not_Home_Page.css" rel="stylesheet" />
+	</div>
+   <!-- <script type="text/javascript" src="vspfiles/templates/OransBL2/js/google-analytics.js"></script>-->
+   <script>
+     var _gaq=_gaq||[];
+    _gaq.push(['_setAccount','UA-11775383-1']);
+    _gaq.push(['_trackPageview']);
+    (function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(ga);})();
+   </script>
+	<script type="text/javascript" src="/v/unified.js.asp"></script>
+<meta name="google-site-verification" content="QX0R1c4E502h66EsgKwY-OXFzsYe_lSp57cRjDp2ei8" />
+</head>
+<body onload="updateHeaderCartSummary();">
+<div id="page_wrapper">
+
+    <!-- HEADER -->
+    <div id="header_wrapper">
+    	<a href="/" title="Oransi" id="header_logo"><img src="vspfiles/templates/OransBL2/images/template/head-logo.jpg" alt="Oransi" title="Oransi" /></a>
+        <div id="header_motto">The Ultimate Air Cleaning Machine<sup>&reg;</sup></div>
+        
+        <div id="view_cart_text">
+        	<a href="/shoppingcart.asp" title="View Cart" id="cart_link">view cart</a>
+            <div id="view_cart_text_right"></div>
+            <a href="/shoppingcart.asp" title="View Cart" id="cart_icon"><img src="vspfiles/templates/OransBL2/images/template/cart-icon.png" alt="View Cart" title="View Cart" /></a>
+        </div>
+        
+        <div id="display_menu_1"></div>
+        <div id="livechat">
+          <!-- BoldChat Live Chat Button HTML v4.00 (Type=Web,ChatButton=My Chat Button,Website=- None - -->
+            <div style="text-align: center; white-space: nowrap;"><a href="https://livechat.boldchat.com/aid/320002786360468999/bc.chat?resize=true&amp;cbdid=317065545260003623" target="_blank" onclick="window.open((window.pageViewer &amp;&amp; pageViewer.link || function(link){return link;})(this.href + (this.href.indexOf('?')>=0 ? '&amp;' : '?') + 'url=' + escape(document.location.href)), 'Chat367233609785093432', 'toolbar=0,scrollbars=1,location=0,statusbar=0,menubar=0,resizable=1,width=640,height=480');return false;"><div><script type="text/javascript"> var bccbId = Math.random(); document.write(unescape('%3Cimg alt="Live chat by BoldChat" src="' + (('https:' == document.location.protocol) ? 'https:' : 'http:') + '//cbi.boldchat.com/aid/320002786360468999/bc.cbi?0&amp;cbdid=317065545260003623" border="0" id=' + bccbId + ' /%3E')); var bccb = {id: bccbId, bdid: '317065545260003623', rdid: null, type: 'chat'}; var _bcvma = _bcvma || []; if(window.pageViewer && pageViewer.addButton) pageViewer.addButton(button); else _bcvma.push(['addButton', bccb]);</script></div></a></div>
+          <!-- /BoldChat Live Chat Button HTML v4.00 -->
+        </div>
+        <div id="header_search_phone">
+            <form action="/SearchResults.asp" method="get" id="header_search">
+                <div id="search_form_input"><input type="text" onblur="inputTextBlurred(this, '#707070');" onfocus="inputTextClicked(this, '#444444');" style="color:#707070;" value="search" name="Search" id="search_input"/></div>
+                <div id="search_form_go"><a title="Go" onclick="document.forms['header_search'].submit(); return false;" href="#"><img border="0" src="vspfiles/templates/OransBL2/images/template/search-go.jpg" alt="Go" title="Go"/></a></div>
+            </form>
+            <div id="header_phone">Call Us M-F 9-6 EST <span>888.281.3948</span></div>
+        </div>
+        
+        <ul id="top-nav">
+        	<li class="nav-first" id="topnav_link1"><a href="/hepa-air-purifiers-s/111.htm" title="Air Purifiers" class="nav-first-link">Air Purifiers</a>
+            	<div class="sub-nav-dropdown">
+                	<ul class="sub-nav">
+                    	<li class="sub-nav-first"><a href="/hepa-air-purifiers-s/111.htm" title="Shop All">Shop All</a></li>
+                        <li><a href="/Residential-Air-Purifiers-s/138.htm" title="Residential">Residential</a></li>
+                        <li><a href="/Commercial-Air-Purifiers-s/137.htm" title="Commercial">Commercial</a></li>
+                        <li class="sub-nav-first">Shop By Concern</li>
+                        <li><a href="/allergy-air-purifier-s/45.htm" title="Air Purifiers For Allergies">Air Purifiers For Allergies</a></li>
+                        <li><a href="/best-air-purifiers-for-dust-s/133.htm" title="Air Purifiers For Dust">Air Purifiers For Dust</a></li>
+                        <li><a href="/Oransi-Pet-Allergy-Dander-Education-s/103.htm" title="Air Purifiers For Pets">Air Purifiers For Pets</a></li>
+                        <li><a href="/Oransi-Smoke-Education-s/104.htm" title="Air Purifiers For Smoke">Air Purifiers For Smoke</a></li>
+                        <li><a href="/air-purifiers-for-odors-s/141.htm" title="Air Purifiers For Odors">Air Purifiers For Odors</a></li>
+                        <li><a href="/Air-Purifiers-For-Asthma-s/135.htm" title="Air Purifiers For Asthma">Air Purifiers For Asthma</a></li>
+                        <li><a href="/air-purifiers-for-children-s/140.htm" title="Air Purifiers For Children">Air Purifiers For Children</a></li>
+                        <li><a href="/Oransi-Mold-Education-s/102.htm" title="Air Purifiers For Mold">Air Purifiers For Mold</a></li>
+                    </ul>
+                    <div class="sub-nav-dropdown-moreinfo">
+                    	<span class="sub-nav-dropdown-moreinfo-title">More Info</span>
+                        <a href="/Oransi-Help-Me-Choose-Wizard-s/129.htm" title="Help Me Choose"><img src="vspfiles/templates/OransBL2/images/template/top-nav-air-purifiers-help-me-choose.jpg" alt="Help Me Choose" title="Help Me Choose" /><strong>Help Me Choose</strong><p>New to the market and not sure which air purifier is best for your specific concerns? We can help you make the right choice.</p><span>Learn More</span><div class="clearfloat"></div></a>
+                        <a href="/Air-Purifier-Comparison-s/53.htm" title="Air Purifier Comparisons"><img src="vspfiles/templates/OransBL2/images/template/top-nav-air-purifiers-comparisons.jpg" alt="Air Purifier Comparisons" title="Air Purifier Comparisons" /><strong>Air Purifier Comparisons</strong><p>On the fence? Compare and contrast all of our units by performance, room size, filter life, noise level & more!</p><span>Learn More</span><div class="clearfloat"></div></a>
+                        <a href="http://blog.oransi.com/do-air-purifiers-really-work/" target="_blank" title="Do Air Purifiers Really Work?"><img src="vspfiles/templates/OransBL2/images/template/top-nav-air-purifiers-really-work.jpg" alt="Do Air Purifiers Really Work?" title="Do Air Purifiers Really Work?" /><strong>Do Air Purifiers Really Work?</strong><p>Not every air purifier works the same, but we can help you understand the variables dictating their effectiveness.</p><span>Learn More</span><div class="clearfloat"></div></a>
+                    </div>
+                    <div class="sub-nav-dropdown-promo">
+                    	
+                    </div>
+                </div>
+            </li>
+            <li class="nav-first" id="topnav_link2"><a href="/replacement-hepa-air-filters-s/20.htm" title="Replacement Filters" class="nav-first-link">Replacement Filters</a>
+            	<div class="sub-nav-dropdown">
+                	<ul class="sub-nav">
+                    	<li class="sub-nav-first"><a href="/replacement-hepa-air-filters-s/20.htm" title="All Filters">All Filters</a></li>
+                        <li><a href="/replacement-hepa-air-filters-s/20.htm#001" title="Erik Ultra/Plus">Erik Ultra/Plus</a></li>
+                        <li><a href="/replacement-hepa-air-filters-s/20.htm#002" title="Erik Multi-Carbon">Erik Multi-Carbon</a></li>
+                        <li><a href="/replacement-hepa-air-filters-s/20.htm#004" title="Max HEPA">Max HEPA</a></li>
+                        <li><a href="/replacement-hepa-air-filters-s/20.htm#003" title="Finn HEPA">Finn HEPA</a></li>
+                    </ul>
+                    <div class="sub-nav-dropdown-moreinfo">
+                    	<span class="sub-nav-dropdown-moreinfo-title">More Info</span>
+                        <a href="/filter-costs-s/61.htm" title="Filter Costs"><img src="vspfiles/templates/OransBL2/images/template/top-nav-replacement-filters-filter-costs.jpg" alt="Filter Costs" title="Filter Costs" /><strong>Filter Costs</strong><p>Compare our air purifier filters to competitive models and you'll see ours not only work better, but save users more money long term.</p><span>Learn More</span><div class="clearfloat"></div></a>
+                        <a href="http://blog.oransi.com/what-is-a-hepa-filter/" title="What is a HEPA Filter?" target="_blank"><img src="vspfiles/templates/OransBL2/images/template/top-nav-replacement-filters-hepa-filter.jpg" alt="What is a HEPA Filter?" title="What is a HEPA Filter?" /><strong>What is a HEPA Filter?</strong><p>Learn more about why our true HEPA filtration is superior to most competitive alternatives.</p><span>Learn More</span><div class="clearfloat"></div></a>
+                        <a href="/MERV-Ratings-s/124.htm" title="MERV Ratings"><img src="vspfiles/templates/OransBL2/images/template/top-nav-replacement-filters-merv-ratings.jpg" alt="MERV Ratings" title="MERV Ratings" /><strong>MERV Ratings</strong><p>See how our pre-filters are rated and you'll understand the unmatched efficiency of our filtration.</p><span>Learn More</span><div class="clearfloat"></div></a>
+                    </div>
+                </div>
+            </li>
+            <li class="nav-first" id="topnav_link3"><a href="/Education-Center-s/91.htm" title="Air Quality Education" class="nav-first-link">Air Quality Education</a>
+            	<div class="sub-nav-dropdown">
+                	<ul class="sub-nav">
+                    	<li class="sub-nav-first"><a href="/Education-Center-s/91.htm" title="Learning Center">Learning Center</a></li>
+                        <li><a href="/air-purifier-test-results-s/36.htm" title="Test Results">Test Results</a></li>
+                        <li><a href="/v/vspfiles/assets/images/air-quality-in-the-usa-infographic.jpg" title="US Air Quality Index" target="_blank">US Air Quality Index</a></li>
+                        <li class="sub-nav-first"><a href="http://blog.oransi.com/" title="Blog" target="_blank">Blog</a></li>
+                        <li><a href="http://blog.oransi.com/what-air-purifier-companies-dont-want-you-to-know/" title="What Air Purifier Companies Don’t Want You To Know" target="_blank">What Air Purifier Companies Don’t Want You To Know</a></li>
+                        <li><a href="http://blog.oransi.com/10-reasons-everyone-needs-an-air-purifier/" title="10 Reasons You Need An Air Purifier" target="_blank">10 Reasons You Need An Air Purifier</a></li>
+                        <li><a href="http://blog.oransi.com/winter-allergy-symptoms-relief/" title="Winter Allergy Symptoms & Relief" target="_blank">Winter Allergy Symptoms &amp; Relief</a></li>
+                    </ul>
+                    <div class="sub-nav-dropdown-moreinfo">
+                    	<a href="/airlift_clean_air_solutions-a/274.htm" title="AirLift Clean Air Solutions"><img src="vspfiles/templates/OransBL2/images/template/top-nav-airlift.jpg" alt="AirLift Clean Air Solutions" title="AirLift Clean Air Solutions" /><strong>AirLift Clean Air Solutions</strong> <p>Learn how Oransi actively seeks to improve the world's air quality with social impact initiatives via our AirLift program.</p><span>Learn More</span><div class="clearfloat"></div></a>
+                        <a href="/indoor-air-quality-facts-s/90.htm" title="Indoor Air Quality Facts"><img src="vspfiles/templates/OransBL2/images/template/top-nav-air-quality-facts.jpg" alt="Indoor Air Quality Facts" title="Indoor Air Quality Facts" /><strong>Indoor Air Quality Facts</strong><p>Check out our When Allergies Attack infographic and better understand the risks associated with indoor allergens.</p><span>Learn More</span><div class="clearfloat"></div></a>
+                        <a href="/Ionic-Air-Purifiers-VS-HEPA-Air-Purifiers-s/127.htm" title="HEPA Vs. Ionic Air Purifiers"><img src="vspfiles/templates/OransBL2/images/template/top-nav-air-quality-hepa-vs-ionic.jpg" alt="HEPA Vs. Ionic Air Purifiers" title="HEPA Vs. Ionic Air Purifiers" /><strong>HEPA Vs. Ionic Air Purifiers</strong><p>We don't offer ionic purifiers, for a reason. Let us educate you on why HEPA air purifiers help most.</p><span>Learn More</span><div class="clearfloat"></div></a>
+                        <!--<a href="http://blog.oransi.com/what-air-purifier-companies-dont-want-you-to-know/" title="What Air Purifier Companies Don’t Want You To Know" target="_blank"><img src="vspfiles/templates/OransBL2/images/template/top-nav-air-quality-air-purifier-companies.jpg" alt="What Air Purifier Companies Don’t Want You To Know" title="What Air Purifier Companies Don’t Want You To Know" /><strong>What Air Purifier Companies Don’t Want You To Know</strong><p>We've been in the industry long enough to know not every air purifier company provides honest info. Let's unveil the curtain.</p><span>Learn More</span><div class="clearfloat"></div></a>-->
+                    </div>
+                </div>
+            </li>
+            <li class="nav-first" id="topnav_link4"><a href="/aboutus.asp" title="About Us" class="nav-first-link">About Us</a>
+            	<div class="sub-nav-dropdown">
+                	<ul class="sub-nav">
+                    	<li><a href="/aboutus.asp" title="Our Promise">Our Promise</a></li>
+                        <li><a href="/testimonials-a/255.htm" title="Testimonials">Testimonials</a></li>
+                        <li><a href="/Industry-Endorsements-s/128.htm" title="Industry Endorsements">Industry Endorsements</a></li>
+                        <li><a href="/environment-s/30.htm" title="Environmental Footprint">Environmental Footprint</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+        <!--<ul id="header_whybuy">
+        	<li id="header_whybuy_first"><strong>Free Shipping</strong> on all Orders</li>
+            <li><a href="/Industry-Endorsements-s/128.htm" title="Expert Rated #1" >Expert Rated #1</a></li>
+            <li>High Performance Without the High Cost</li>
+            <li>Superior Customer Service</li>
+        </ul>-->
+        <ul id="header_whybuy">
+          <li id="header_whybuy_first" style="padding: 6px 20px 0 0"><strong>Free Shipping</strong> on all Orders</li>
+          <li style="padding: 6px 20px 0 68px"><a href="/Industry-Endorsements-s/128.htm" title="Expert Rated #1">Expert Rated #1</a></li>
+          <li style="padding: 6px 20px 0 68px">Over 110,000 Shipped</li>
+          <li style="padding: 6px 0 0 68px"><a href="/category-s/112.htm" title="No Interest Financing">No Interest Financing</a></li>
+        </ul>
+    </div>
+    
+    <!-- CONTENT -->   
+    <div id="content_wrapper">
+    	<div id="content_left">
+        	<div id="display_menu_3"></div>
+            <div id="display_promotions_999"></div>
+        </div>
+        <div id="content_area"></div>
+        <div class="clearfloat"></div>
+    </div>
+        
+    <!-- FOOTER -->
+    <div id="footer_wrapper">
+    	<div id="footer_top">
+            <div id="footer_menus">
+                <div class="footer_links" id="footer_links1">
+                    <h4 id="Menu4_Title"></h4>
+                    <div id="display_menu_4"></div>
+                </div>
+                <div class="footer_links" id="footer_links2">
+                    <h4 id="Menu5_Title"></h4>
+                    <div id="display_menu_5"></div>
+                </div>
+                <div class="footer_links" id="footer_links3">
+                    <h4 id="Menu6_Title"></h4>
+                    <div id="display_menu_6"></div>
+                </div>
+                <div class="footer_links" id="footer_links4">
+                    <h4 id="Menu7_Title"></h4>
+                    <div id="display_menu_7"></div>
+                </div>
+                <div class="footer_links" id="footer_links5">
+                    <h4 id="Menu8_Title"></h4>
+                    <div id="display_menu_8"></div>
+                </div>
+                <div id="footer_social">
+                    <h4>follow oransi on:</h4>
+                    <a href="http://www.facebook.com/OransiLLC" target="_blank" id="footer_facebook" title="Facebook">Facebook</a>
+                    <a href="http://twitter.com/OransiLLC" target="_blank" id="footer_twitter" title="Twitter">Twitter</a>
+                    <a href="http://pinterest.com/oransi/" target="_blank" id="footer_pintrest" title="Pinterest">Pinterest</a>
+                    <a href="http://blog.oransi.com" id="footer_blog" title="Blog">Blog</a>
+                    <a href="http://www.youtube.com/user/OransiAirPurifiers" target="_blank" id="footer_youtube" title="YouTube">YouTube</a>
+                </div>
+                <div class="clearfloat"></div>
+            </div>
+        </div>
+        <div id="footer_copyright_payment">
+        	<a href="javascript:void(0);" onclick="window.open('https://www.volusion.com/ssl.asp?url=www.oransi.com', 'VolusionSSL', 'top=10,left=10,menubar=0,resizable=0,scrollbars=0,width=467,height=467')" id="footer_volusion"><img src="vspfiles/templates/OransBL2/images/template/footer-volusion.jpg" alt="Volusion Secure Site" title="Volusion Secure Site"/></a>
+         	<a id="footer-bbb" target="_blank" title="Click for the Business Review of Oransi LLC, an Air Purifying &amp; Cleaning Systems &amp; Equipment in Austin TX" href="http://www.bbb.org/central-texas/business-reviews/air-purifying-and-cleaning-systems-and-equipment/oransi-in-austin-tx-90118205#sealclick"><img alt="Click for the BBB Business Review of this Air Purifying &amp; Cleaning Systems &amp; Equipment in Austin TX" style="border: 0;" src="/v/vspfiles/templates/OransBL2/images/template/footer-bbb-logo.jpg" /></a>
+            <img title="Payment Methods: Visa, MasterCard, Discover, American Express" alt="Payment Methods: Visa, MasterCard, Discover, American Express" src="vspfiles/templates/OransBL2/images/template/footer-ccards.jpg" id="footer_ccards"/>
+        	<a title="PayPal" rel="nofollow" href="https://www.paypal.com/us/cgi-bin/webscr?cmd=xpt/cps/popup/OLCWhatIsPayPal-outside" onclick="window.open(this.href,'olcwhatispaypal','toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=yes, resizable=yes, width=400, height=350'); return false;" id="footer_paypal"><img src="vspfiles/templates/OransBL2/images/template/footer-paypal.jpg" alt="PayPal" title="PayPal"/></a>
+            <div id="footer_copyright"><strong>Copyright &copy; 2014 Oransi. All Rights Reserved.</strong>&nbsp;&nbsp;&nbsp;&nbsp;<div id="if_homepage"><a href="http://www.volusion.com" target="_blank">Ecommerce Software by Volusion</a></div> <div id="if_not_homepage">Ecommerce Software by Volusion</div>&nbsp;/&nbsp;Designed by Brand Labs</div>
+        </div>
+    </div>
+        
+</div>
+<div id="display_cart_summary"><div class="cartsummary_empty">(Your shopping cart is empty)</div></div>
+<script type="text/javascript" src="vspfiles/templates/OransBL2/js/google-analytics-transaction.js"></script>
+
+<!-- Google Code for Visitors of Oransi.com -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1025645734;
+var google_conversion_label = "ccoNCMrP4gkQprmI6QM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1025645734/?value=0&amp;label=ccoNCMrP4gkQprmI6QM&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
+
+<!-- AdRoll -->
+<script type="text/javascript">
+adroll_adv_id = "LJOYJWNPYNCW3BHTS6G5OY";
+adroll_pix_id = "FPFTCNBJX5AUNAM5P7QE4F";
+(function () {
+var oldonload = window.onload;
+window.onload = function(){
+   __adroll_loaded=true;
+   var scr = document.createElement("script");
+   var host = (("https:" == document.location.protocol) ? "https://s.adroll.com" : "http://a.adroll.com");
+   scr.setAttribute('async', 'true');
+   scr.type = "text/javascript";
+   scr.src = host + "/j/roundtrip.js";
+   ((document.getElementsByTagName('head') || [null])[0] ||
+    document.getElementsByTagName('script')[0].parentNode).appendChild(scr);
+   if(oldonload){oldonload()}};
+}());
+</script>
+<!-- End AdRoll -->
+
+</body>
+</html>

@@ -3,3 +3,49 @@
 \* -------------------------------------- */
 
 img{max-width: 100%;}
+h1, h2, h3, h4, h5, h6{
+  font-family: @font-primary;
+  position: relative;
+  font-weight: 300;
+}
+a, p{
+  font-family: @font-secondary;
+  font-size: @font-size;
+}
+
+a{color:@color-primary;text-decoration: underline;}
+a:hover{color:@color-primary;text-decoration: none;}
+/* -------------------------------------- *\
+    Headings
+\* -------------------------------------- */
+h1{font-size: 38px;line-height: 44px}
+h2{font-size: 32px;line-height: 36px}
+h3{font-size: 24px;line-height: 30px}
+h4{font-size: 18px;line-height: 24px}
+h5{font-size: 14px;line-height: 20px}
+h6{font-size: 12px;line-height: 18px}
+
+h1, h2, h3{
+  border-bottom:1px solid @color-primary;
+  margin:20px 0;
+}
+
+h1:after, h2:after, h3:after{
+  content:"";
+  border-color: @color-primary transparent transparent transparent;
+  border-style:solid;
+  border-width:7px;
+  width:0;
+  height:0;
+  position:absolute;
+  bottom:-14px;
+  left:70px;
+}
+
+h4{border-bottom:1px solid @color-accent;}
+
+/* -------------------------------------- *\
+    Home page specifics
+\* -------------------------------------- */
+.home-callout1{background:linear-gradient(#343433, #414140);}
+.home-callout1 h4{border:none;color:#fff;text-align: center;}

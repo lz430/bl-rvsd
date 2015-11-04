@@ -5,7 +5,8 @@
 // Colors
 @color-primary: #F58320;
 @color-secondary: #333434;
-// @color-accent: # ;
+@color-accent: #aaa;
+@color-accent-secondary:#f1f2f2;
 @white:#fff;
 @black:#000;
 
@@ -18,8 +19,25 @@
 /* -------------------------------------- *\
     Fonts
 \* -------------------------------------- */
-@import url(https://fonts.googleapis.com/css?family=Exo+2:400,700);
+@import url(https://fonts.googleapis.com/css?family=Exo+2:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
 @font-primary:'Exo 2', sans-serif;
-@font-secondary: ;
-@font-size: ;
+@font-secondary:'Open Sans', sans-serif;
+@font-size: 14px;
 
+/* -------------------------------------- *\
+    Headings
+\* -------------------------------------- */
+
+
+
+/* -------------------------------------- *\
+    Special things
+\* -------------------------------------- */
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid @color-primary;
+}
