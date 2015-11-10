@@ -1,0 +1,230 @@
+ /*-------------------------------------- *\
+    CSS Skeleton 1
+\* -------------------------------------- */
+
+/*
+
+
+  Chapters
+    1. Global
+      a. Import Bootstrap
+    2. Variables
+    3. Header
+
+*/
+
+/* ===Imports=== */
+@import url(bootstrap.css);
+@import url(https://fonts.googleapis.com/css?family=Exo+2:400,100,300italic,300,200italic,200,100italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+
+/* ===Variables=== */
+// LESS Variables. Primary colors, font families,etc. You can make these static for now
+@color-background:              #ffffff;
+@color-text:                    #343433;
+@color-text-accent:             #f58320;
+@color-links:                   #000000;
+@color-links-hover:             #000000;
+@color-links-active:            #000000;
+@color-inputs:									#4b4b4b;
+@font-family-primary:						"Exo 2", arial, verdana, sans-serif;
+@font-size-primary:							14px;
+
+
+/* ===Global=== */
+html {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background-color: @color-background;
+	margin:0;
+	padding:0;
+}
+
+body, div, td, table {
+	color: @color-text;
+	font:@font-size-primary @font-family-primary;
+}
+
+a {
+	color: @color-links;
+	font:@font-size-primary @font-family-primary;
+	text-decoration:none;
+}
+
+a:hover {
+	color: @color-links-hover;
+	text-decoration:underline;
+}
+
+a:active {
+	color: @color-links-active;
+	text-decoration:none;
+}
+
+* {
+  	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+ 	 box-sizing: border-box; 
+}
+
+*:before,
+*:after {
+  	-webkit-box-sizing: border-box;
+  	-moz-box-sizing: border-box;
+  	box-sizing: border-box; 
+}
+
+img {
+	border:0;
+}
+
+form { 
+	margin: 0;
+}
+
+select {
+	border:1px solid #bababa;
+	color:@color-inputs;
+	font:12px @font-family-primary;
+}
+
+textarea, input {
+	border:1px solid #bababa;
+	color:@color-inputs;
+	font:12px @font-family-primary;
+	padding:2px;
+}
+
+input[type="image"], input[type="checkbox"], input[type="radio"], select option { /* Only Needed When Inputs Have Background and/or Border */
+	background-color:transparent;
+	border:0;
+	padding:0;
+}
+
+.clearfloat {
+	clear:both;
+	margin: 0;
+	padding: 0;
+	line-height:1px;
+	font-size: 1px;
+}
+
+.page_wrapper {
+	margin:0 auto;
+	padding:0;
+	width:100%;
+}
+
+#content_area table { /* Table Alignment Fix */
+	text-align: left;
+}
+
+#display_cart_summary {
+	display:none;
+}
+
+
+
+/* ===Header===*/
+header {
+	margin:0px auto;
+	width:980px;
+}
+
+header #search-box {
+	border-radius:3px;
+	background-color:#ffffff;
+	border:1px solid #343433;
+	height:43px;
+	margin: 0 auto;
+	padding:0px 10px 0px 10px;
+	position:relative;
+	width: 100%;
+}
+
+header #search-box #search-input-wrapper {
+	float:left;
+	height:43px;
+	padding:5px 0px 0px 0px;
+	width:92%;
+}
+
+header #search-box #search-input-wrapper input {
+	background-color:transparent;
+	border:0px;
+	color:#a5a5a5;
+	font:300 italic 13px/13px @font-family-primary;
+	height:43px;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	vertical-align:middle;
+}
+
+header #search-box #search-submit-wrapper {
+	position:absolute;
+	right:5px;
+	top:0px;
+	height: 32px;
+}
+
+header #search-box #search-submit-wrapper a {
+	color:#343433;
+	font-size:17px;
+	line-height:32px;
+	text-decoration:none;
+	vertical-align:middle;
+}
+
+#header-cart {
+	padding:0px 0px 0px 15px;
+	white-space:nowrap;	
+}
+
+#header-cart a#header-cart-link {
+	color: @color-text;
+	display:inline-block;
+	font-size:15px;
+	font-weight:300;
+	line-height:28px;
+	text-decoration:none;
+	text-align:right;
+	vertical-align:middle;
+}
+
+#header-cart a#header-cart-link:hover {
+	color: @color-text;
+	text-decoration:underline;
+}
+
+#header-cart #header-cart-details {
+	color: @color-text;
+	display:inline-block;
+	font-size:15px;
+	font-weight:300;
+	line-height:28px;
+	white-space:nowrap;
+	vertical-align:middle;
+}
+
+#header-cart #header-cart-details strong {
+	color: @color-text-accent;
+	font-weight:700;
+}
+
+#header-cart a#header-cart-icon {
+	color:#787d81;
+	font-size:28px;
+	display:inline-block;
+	line-height:28px;
+	margin:0px;
+	text-decoration:none;
+	vertical-align:middle;
+}
+
+#header-cart a#header-cart-icon:hover {
+	text-decoration:none;	
+}
